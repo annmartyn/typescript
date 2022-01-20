@@ -1,0 +1,27 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "hw ajs-typescript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annmartyn/typescript.git"
+  },
+  "author": "annmartyn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annmartyn/typescript/issues"
+  },
+  "homepage": "https://github.com/annmartyn/typescript#readme",
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "ts-jest": "^27.1.3",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.4"
+  }
+}
